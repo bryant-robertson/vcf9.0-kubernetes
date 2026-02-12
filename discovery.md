@@ -1,0 +1,1 @@
+note: clicking "Learn more about Supervisor Management" in vcenter supervisor managment displays a blank page. reference url: https://techdocs.broadcom.com/bin/gethidpage?ux-context-string=WCP-LEARN-MORE&appid=vsphere-9-0&language=en&format=rendered
