@@ -7,4 +7,9 @@ Broadcom public url for supervisor files: https://wp-content.broadcom.com/superv
 use the webserver created previously
 
 # Issue NSX Active/Active
-On step 5 Workload Network the default NSX project is populated. you need to select a vpc connectivity provile, but the default one does not populate and is not an option. this is because the Default VPC Connectivity Profile has Default Outbound NAT set to off when it needs to be on. You cannot turn it on in an active/active setup, you must use active/standby
+On step 5 Workload Network the default NSX project is populated. you need to select a vpc connectivity provile, but the default one does not populate and is not an option. this is because the Default VPC Connectivity Profile has Default Outbound NAT set to off when it needs to be on. You cannot turn it on in an active/active setup, you must use active/standby and edge nodes need to be of size LARGE!
+
+# vsphere permissions to see namespaces
+
+
+https://wp-content.broadcom.com/v2/latest/
